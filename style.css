@@ -1,0 +1,219 @@
+body {
+    
+
+        
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-image: url('martha-dominguez-de-gouveia-KF-h9HMxRKg-unsplash.jpg'); /* Set background image */
+            background-size: cover; /* Ensure the background image covers the screen */
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100%; /* Ensure body covers the full screen */
+            margin: 0;
+            padding: 0;
+            
+                background-attachment: fixed; /* Ensures the background stays fixed during scroll */
+                min-height: 100vh; /* Ensures body takes at least the full height of the screen */
+            
+            
+        
+        
+    
+    
+}
+
+header {
+    /* background-color: lightpink;
+    color: white;
+    padding: 15px; */
+    
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent background */
+    
+    
+}
+
+main {
+    background-color: rgba(235, 49, 49, 0.5); /* Dark background for readability */
+}
+
+
+nav a {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color:darkkhaki ;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.password-container {
+    position: relative;
+    display: inline-block;
+}
+
+input {
+    padding: 10px;
+    width: 250px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 16px;
+    background: none;
+    border: none;
+}
+
+form {
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    background: lightsteelblue;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    form {
+    width: 100%; /* Make form take the full width */
+    max-width: 500px; /* Optional: limits form width for better readability */
+    margin: 0 auto; /* Center the form */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for form */
+}
+
+
+    /* .time-slots {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px; /* Spacing between slots */
+    /* } */
+
+    /* Styling each time slot label */
+    /* .time-slot {
+        background-color: #f0f0f0;
+        padding: 10px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        border: 2px solid transparent;
+        transition: all 0.3s ease;
+        min-width: 150px; /* Ensures equal size */
+        /* text-align: center;
+        justify-content: center;
+    }
+
+    /* Hide default radio button */
+    /* .time-slot input {
+        display: none;
+    }
+
+    /* Highlight selected time slot */
+    /* .time-slot input:checked + span {
+        font-weight: bold;
+        color: white;
+        background-color: #007bff;
+        padding: 10px 15px;
+        border-radius: 5px;
+        border: 2px solid #0056b3; */
+    /* } */ */ */ */ */
+
+
+/* input, button {
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0;
+} */
+
+input {
+    padding: 8px 12px; /* Reduce padding for smaller text box */
+    width: 250px; /* Adjust width to make the input box smaller */
+    font-size: 14px; /* Set a smaller font size */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px 0; /* Optional: Adjust margin for better spacing */
+}
+
+
+button {
+    background-color: blueviolet;
+    color: white;
+    padding: 15px 30px; /* Increase padding for a larger button */
+    font-size: 18px; /* Increase the font size */
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Optional: Adds rounded corners */
+    width: 100%; /* Ensure the button takes up full width of the parent container */
+    margin-top: 20px; /* Optional: Adds margin above the button */
+}
+
+
+.error-message {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 5px;
+    display: block;
+}
+
+.content {
+    background: rgba(255, 255, 255, 0.6); /* Slightly transparent background for the content */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.required{
+    color : red;
+    font-weight: bold;
+}
+
+/* Apply the same styles to both input and select */
+input, select {
+    width: 100%; /* Ensure both input and select take full width */
+    padding: 8px; /* Same padding for both */
+    font-size: 14px; /* Same font size for both */
+    margin-bottom: 10px; /* Space between fields */
+    border-radius: 5px; /* Rounded corners */
+    border: 1px solid #ccc; /* Border style */
+    box-sizing: border-box; /* Ensure padding and border are included in the total width */
+    line-height: 1.5; /* Ensures consistent height */
+}
+
+label {
+    text-align: left; /* Align text to the left */
+    width: 100%; /* Make label take full width */
+    display: block; /* Ensure the label takes up full line */
+    margin-bottom: 5px; /* Optional: Adds space between label and input */
+}
+}
+
+#togglePassword {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 12px; /* Smaller text */
+    padding: 5px 10px; /* Adjust padding */
+    margin-left: 5px; /* Optional: add space between the input and button */
+}
+
+html, body {
+    height: 100%; /* Make sure both take up full screen height */
+    margin: 0;
+    padding: 0;
+}
+
+p a {
+    color: #ff6347; /* Change to your desired color */
+    text-decoration: none; /* Optional: removes underline */
+}
+
+p a:hover {
+    color: #c71585; /* Color when hovered */
+}
